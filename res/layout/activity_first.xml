@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:text="Number Of Players :"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txtN"
+            android:layout_width="32dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:textSize="16dp" android:text="2" android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dip"
+            android:layout_height="32dip"
+            android:background="@drawable/left_button_selector"
+            android:text="2"
+            android:textColor="#fff" android:layout_weight="1" android:layout_marginBottom="2dip" android:layout_marginLeft="2dip" android:layout_marginTop="2dip"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent" android:background="#ff6600" android:layout_marginTop="2dip" android:layout_marginBottom="2dip"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dip"
+            android:layout_height="32dip"
+            android:background="@drawable/right_button_selector"
+            android:text="3"
+            android:textColor="#fff" android:layout_weight="1" android:layout_marginBottom="2dip" android:layout_marginRight="2dip" android:layout_marginTop="2dip"/>
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/firstGridView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:listSelector="#00000000"
+        android:numColumns="3"
+        android:visibility="gone" android:layout_weight="1" android:fadingEdgeLength="0dip" android:scrollbars="none">
+    </GridView>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="fill_parent"
+        android:layout_height="38dip"
+        android:text="Next" android:gravity="center" android:background="@drawable/buttons_selector" android:textColor="#fff" android:layout_margin="3dip"/>
+
+ </LinearLayout>

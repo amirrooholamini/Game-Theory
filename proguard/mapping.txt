@@ -1,0 +1,200 @@
+a.s.e.h.f.game_theory_project.BestResponseStrategy -> a.s.e.h.f.game_theory_project.a:
+    int table -> a
+    int row -> b
+    int col -> c
+    boolean findNash -> d
+    java.lang.String Execution() -> a
+    void rowCompare() -> b
+    void colCompare() -> c
+    void tableCompare() -> d
+    java.lang.String checkNE() -> e
+    java.lang.String HS(int,int,int) -> a
+    float Value(int,java.lang.String) -> a
+a.s.e.h.f.game_theory_project.DominantAndDominatedStrategy -> a.s.e.h.f.game_theory_project.b:
+    int table -> a
+    int row -> b
+    int col -> c
+    java.lang.String ne -> d
+    java.lang.String remove -> e
+    boolean rowCleared -> f
+    boolean colCleared -> g
+    boolean tableCleared -> h
+    boolean findNash -> i
+    java.lang.String Execution() -> a
+    float Value(int,java.lang.String) -> a
+    java.lang.String HS(int,int,int) -> a
+    void clear(java.lang.String,int) -> a
+    void rowCompare() -> b
+    void columnCompare() -> c
+    void tableCompare() -> d
+    void singleCompare() -> e
+a.s.e.h.f.game_theory_project.GameTheoryProjectActivity -> a.s.e.h.f.game_theory_project.GameTheoryProjectActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+a.s.e.h.f.game_theory_project.Global -> a.s.e.h.f.game_theory_project.Global:
+    android.content.Context context -> a
+    android.view.LayoutInflater inflater -> b
+    android.os.Handler HANDLER -> c
+    java.util.ArrayList firstGrid -> d
+    java.util.ArrayList gridFill -> e
+    int column -> f
+    int selectedItem -> g
+    int selectedItem2 -> h
+    android.graphics.Typeface persionFont -> i
+    android.graphics.Typeface EnglishFont -> j
+    android.graphics.Typeface NumberFont -> k
+    void onCreate() -> onCreate
+a.s.e.h.f.game_theory_project.Matrix -> a.s.e.h.f.game_theory_project.c:
+    java.lang.String[][] matrix -> a
+a.s.e.h.f.game_theory_project.Player -> a.s.e.h.f.game_theory_project.d:
+    java.lang.String name -> a
+    java.util.ArrayList actions -> b
+activity.ActivityFillData -> activity.ActivityFillData:
+    adapter.AdapterGridFill adapter -> a
+    java.util.ArrayList players -> b
+    int col -> c
+    int row -> d
+    android.app.Dialog dialog -> e
+    int step -> f
+    java.util.ArrayList all_matrix -> g
+    android.widget.ViewAnimator viewAnimator -> j
+    boolean firstLayout -> k
+    android.widget.LinearLayout layout1 -> h
+    android.widget.LinearLayout layout2 -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void populateFakeData() -> a
+    void clearData() -> b
+    android.widget.ViewAnimator access$0(activity.ActivityFillData) -> a
+    void access$1(activity.ActivityFillData,boolean) -> a
+    void access$2(activity.ActivityFillData) -> b
+activity.ActivityFillData$1 -> activity.a:
+    activity.ActivityFillData this$0 -> a
+    android.widget.EditText val$edt1 -> b
+    android.widget.EditText val$edt2 -> c
+    android.widget.EditText val$edt3 -> d
+    void onClick(android.view.View) -> onClick
+activity.ActivityFillData$2 -> activity.b:
+    activity.ActivityFillData this$0 -> a
+    android.widget.TextView val$txtP3 -> b
+    android.widget.TextView val$txtResult -> c
+    android.widget.GridView val$gridFill -> d
+    android.widget.Button val$btnNext -> e
+    void onClick(android.view.View) -> onClick
+activity.ActivityFirst -> activity.ActivityFirst:
+    adapter.AdapterFirstGrid adapter -> a
+    android.app.Dialog dialog -> b
+    android.widget.TextView txtOldName -> c
+    android.widget.TextView txtR -> d
+    android.widget.TextView txtTo -> e
+    android.widget.TextView txtN -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void populateFakeData() -> a
+    void access$0(activity.ActivityFirst) -> a
+activity.ActivityFirst$1 -> activity.c:
+    activity.ActivityFirst this$0 -> a
+    android.widget.Button val$btnNext -> b
+    android.widget.GridView val$firstGridView -> c
+    void onClick(android.view.View) -> onClick
+activity.ActivityFirst$2 -> activity.d:
+    activity.ActivityFirst this$0 -> a
+    void onClick(android.view.View) -> onClick
+activity.ActivityFirst$3 -> activity.e:
+    activity.ActivityFirst this$0 -> a
+    android.widget.EditText val$edtNewName -> b
+    void onClick(android.view.View) -> onClick
+activity.ActivityGroupMembers -> activity.ActivityGroupMembers:
+    void onCreate(android.os.Bundle) -> onCreate
+activity.ActivityGroupMembers$1 -> activity.f:
+    activity.ActivityGroupMembers this$0 -> a
+    android.widget.TextView val$t1 -> b
+    android.widget.TextView val$t2 -> c
+    android.widget.TextView val$t3 -> d
+    android.widget.TextView val$t4 -> e
+    android.widget.TextView val$t5 -> f
+    android.widget.TextView val$t6 -> g
+    android.widget.TextView val$t7 -> h
+    android.widget.TextView val$t8 -> i
+    android.widget.TextView val$t9 -> j
+    android.widget.TextView val$t10 -> k
+    android.widget.LinearLayout val$layout1 -> l
+    android.widget.LinearLayout val$layout2 -> m
+    android.widget.LinearLayout val$layoutRoot -> n
+    android.view.animation.Animation val$animation1_out -> o
+    android.view.animation.Animation val$animation2_out -> p
+    void onClick(android.view.View) -> onClick
+    activity.ActivityGroupMembers access$0(activity.ActivityGroupMembers$1) -> a
+activity.ActivityGroupMembers$1$1 -> activity.g:
+    activity.ActivityGroupMembers$1 this$1 -> a
+    void run() -> run
+activity.ActivityStrategyForm -> activity.ActivityStrategyForm:
+    java.lang.String response -> a
+    void onCreate(android.os.Bundle) -> onCreate
+activity.ActivityStrategyForm$1 -> activity.h:
+    activity.ActivityStrategyForm this$0 -> a
+    void run() -> run
+adapter.AdapterFirstGrid -> b.a:
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getCount() -> getCount
+    long getItemId(int) -> getItemId
+adapter.AdapterFirstGrid$ViewHolder -> b.b:
+    android.view.ViewGroup layoutRoot -> a
+    android.widget.TextView txtUtilities -> b
+    void fill(android.widget.ArrayAdapter,structure.StructFirstGrid,int) -> a
+adapter.AdapterFirstGrid$ViewHolder$1 -> b.c:
+    adapter.AdapterFirstGrid$ViewHolder this$1 -> a
+    int val$position -> b
+    void onClick(android.view.View) -> onClick
+adapter.AdapterGridFill -> b.d:
+    int col -> a
+    int row -> b
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getCount() -> getCount
+    long getItemId(int) -> getItemId
+adapter.AdapterGridFill$ViewHolder -> b.e:
+    android.widget.TextView txtV -> a
+    void fill(android.widget.ArrayAdapter,structure.StructGridFill,int) -> a
+adapter.AdapterGridFill$ViewHolder$1 -> b.f:
+    adapter.AdapterGridFill$ViewHolder this$1 -> a
+    int val$position -> b
+    void onClick(android.view.View) -> onClick
+animation.AnimationFactory -> c.a:
+    android.view.animation.Animation[] flipAnimation(android.view.View,android.view.View,animation.AnimationFactory$FlipDirection,long,android.view.animation.Interpolator) -> a
+    void flipTransition(android.widget.ViewAnimator,animation.AnimationFactory$FlipDirection) -> a
+animation.AnimationFactory$FlipDirection -> c.b:
+    animation.AnimationFactory$FlipDirection LEFT_RIGHT -> a
+    animation.AnimationFactory$FlipDirection RIGHT_LEFT -> b
+    int[] $SWITCH_TABLE$animation$AnimationFactory$FlipDirection -> c
+    animation.AnimationFactory$FlipDirection[] ENUM$VALUES -> d
+    float getStartDegreeForFirstView() -> a
+    float getStartDegreeForSecondView() -> b
+    float getEndDegreeForFirstView() -> c
+    float getEndDegreeForSecondView() -> d
+    animation.AnimationFactory$FlipDirection theOtherDirection() -> e
+    animation.AnimationFactory$FlipDirection[] values() -> values
+    animation.AnimationFactory$FlipDirection valueOf(java.lang.String) -> valueOf
+    int[] $SWITCH_TABLE$animation$AnimationFactory$FlipDirection() -> f
+animation.FlipAnimation -> c.c:
+    float mFromDegrees -> a
+    float mToDegrees -> b
+    float mCenterX -> c
+    float mCenterY -> d
+    android.graphics.Camera mCamera -> e
+    animation.FlipAnimation$ScaleUpDownEnum scaleType -> f
+    float scale -> g
+    void initialize(int,int,int,int) -> initialize
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+animation.FlipAnimation$ScaleUpDownEnum -> c.d:
+    animation.FlipAnimation$ScaleUpDownEnum SCALE_UP -> a
+    animation.FlipAnimation$ScaleUpDownEnum SCALE_DOWN -> b
+    animation.FlipAnimation$ScaleUpDownEnum SCALE_CYCLE -> c
+    animation.FlipAnimation$ScaleUpDownEnum SCALE_NONE -> d
+    int[] $SWITCH_TABLE$animation$FlipAnimation$ScaleUpDownEnum -> e
+    animation.FlipAnimation$ScaleUpDownEnum[] ENUM$VALUES -> f
+    float getScale(float,float) -> a
+    animation.FlipAnimation$ScaleUpDownEnum[] values() -> values
+    animation.FlipAnimation$ScaleUpDownEnum valueOf(java.lang.String) -> valueOf
+    int[] $SWITCH_TABLE$animation$FlipAnimation$ScaleUpDownEnum() -> a
+structure.StructFirstGrid -> d.a:
+    java.lang.String txt -> a
+structure.StructGridFill -> d.b:
+    java.lang.String txt -> a
+    java.lang.String color -> b

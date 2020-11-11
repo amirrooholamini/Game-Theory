@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/b">
+
+    <LinearLayout
+        android:id="@+id/layoutRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical"
+            android:padding="20dip" >
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="سید امیر روح الامینی"
+                android:textColor="#fff"
+                android:textSize="25dip" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="شهید باهنر کرمان"
+                android:textColor="#fff"
+                android:textSize="25dip" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="نظریه بازی ها"
+                android:textColor="#fff"
+                android:textSize="25dip" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="مهندسی کامپیوتر"
+                android:textColor="#fff"
+                android:textSize="25dip" android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="نرم افزار"
+                android:textColor="#fff"
+                android:textSize="25dip" android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical"
+            android:padding="20dip" >
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="نام"
+                android:textColor="#fff"
+                android:textSize="30dip" />
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="دانشگاه"
+                android:textColor="#fff"
+                android:textSize="30dip" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="پروژه درس"
+                android:textColor="#fff"
+                android:textSize="30dip" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="رشته"
+                android:textColor="#fff"
+                android:textSize="30dip" android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="گرایش"
+                android:textColor="#fff"
+                android:textSize="30dip" android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@drawable/dialog_shape" android:gravity="center" android:padding="45dip">
+
+        <TextView
+            android:id="@+id/txtR"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Rename"
+            android:textColor="#ffffaa" android:textSize="35dip"/>
+
+        <TextView
+            android:id="@+id/txtOldName"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:text="oldName" android:gravity="center" android:textSize="35dip"/>
+
+        <TextView
+            android:id="@+id/txtTo"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="To"
+            android:textColor="#ffffaa" android:textSize="35dip"/>
+
+        <EditText
+            android:id="@+id/edtNewName"
+            android:layout_width="200dip"
+            android:layout_height="64dip"
+            android:background="@drawable/edittext_shape"
+            android:ems="10" android:gravity="center" android:padding="5dip" android:textColor="#aaa" android:layout_marginTop="20dip" android:textSize="35dip">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSaveD"
+            android:layout_width="200dip"
+            android:layout_height="64dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/dialog_buttons_selector"
+            android:gravity="center"
+            android:textColor="#ffffaa" android:text="Done" android:textSize="35dip"/>
+
+    </LinearLayout>
+
+</LinearLayout>

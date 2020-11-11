@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewFlipper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:padding="25dip" android:background="@drawable/c">
+    
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:gravity="center" android:background="@drawable/result_shape" android:padding="25dip">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <GridView
+            android:id="@+id/gridFill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdgeLength="0dip"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:scrollbars="none" >
+        </GridView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dip">
+
+            <TextView
+                android:id="@+id/txtP3"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="3dip"
+                android:background="@drawable/buttons_shape"
+                android:gravity="center"
+                android:paddingLeft="6dip"
+                android:paddingRight="6dip"
+                android:text="txtP3"
+                android:textColor="#fff" android:padding="5dip" android:layout_weight="1" android:layout_margin="3dip" android:textSize="24dip"/>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/buttons_selector"
+                android:text="Next"
+                android:textColor="#fff" android:layout_weight="1" android:layout_margin="3dip" android:layout_marginRight="3dip" android:textSize="24dip"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:background="@drawable/result_shape" android:padding="25dip">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:fadingEdgeLength="0dip" android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtResult"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="TextView"
+                    android:textColor="#ffffff"
+                    android:textSize="24dip" android:padding="25dip"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</ViewFlipper>
